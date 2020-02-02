@@ -1,1 +1,18 @@
 //
+body {
+    background: #444;
+  }
+  .searchbar {
+    height: 100vh;
+    transition: all ease 1s;
+  }
+  .searchbar.fixed {
+    height: 110px;
+  }
+  .resultContainer .cards {
+    margin: 10px 0;
+    border-radius: 10px;
+    background: #8c8787;
+    color: #fff;
+  }
+  
